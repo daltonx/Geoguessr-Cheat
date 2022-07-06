@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Octopus",
+    "version": "1.0",
+    "description": "The actual sea monster.",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "tabs",
+        "https://www.geoguessr.com/",
+        "<all_urls>"
+    ],
+    "background": {
+        "scripts": [ "ext.js" ]
+    },
+    "commands": {
+        "doshit": {
+            "suggested_key": {
+                "default": "Alt+T"
+            },
+            "description": "Octopus go wild."
+        }
+    }
+}
